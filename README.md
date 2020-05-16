@@ -46,3 +46,32 @@ So far I've generated a dataset for trump without too much issue.
 2. Specific sentiment
    1. Limit tweets to certain keywords of times or day
    2. Find keywords with high or low sentiment (without stopwords)
+
+
+
+# Implementation
+
+### Creativity:
+
+This application allows a user to see sentiment data over 3 intervals, week, month, and year. Data is normalized into each segment where a line graph appears showing trends along each of the intervals. In my searching, I could not find a webapp that does this for twitter accounts. Additionally, I created my own dataset for this to work.
+
+### Functionality:
+
+The application can take about 2 to 3 seconds to update when the parameters are changed due to the large size of some of the datasets. However, all inputs perform within reasonable expectations and give a fair amount of control as to what information is displayed. I'm unable to get the application to crash.
+
+###Deployment:
+
+Application is deployed to https://ethanzeigler.shinyapps.io/Tweeter-Sentiment/
+
+### Novel Insight:
+
+Within presidents especially, there is a clear correlation between early morning tweets and negativity. By investigating the contexts of these tweets more information can be gathered as to the reasons for this pattern.
+
+### Coding style:
+
+Used the R style guide as well as the rstudio code formatter to adhere to standards of the language.
+
+### Git(hub)
+
+https://github.com/EthanZeigler/Tweeter-Sentiment
+
