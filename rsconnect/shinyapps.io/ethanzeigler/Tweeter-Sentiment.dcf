@@ -1,0 +1,10 @@
+name: Tweeter-Sentiment
+title:
+username:
+account: ethanzeigler
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2307859
+bundleId: 3153789
+url: https://ethanzeigler.shinyapps.io/Tweeter-Sentiment/
+when: 1589586238.83962
